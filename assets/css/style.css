@@ -74,7 +74,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero-image.webp') no-repeat center center; /* change image later > delete comment after */
+    background: url('../images/beatles-bw-walk-image.jpeg') no-repeat center center; /* change image later > delete comment after */
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -122,7 +122,6 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-about {
@@ -136,4 +135,18 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+hr { /*header rule */
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
