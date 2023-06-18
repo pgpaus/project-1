@@ -190,11 +190,101 @@ hr { /*header rule */
 
 /* albums */
 
-#albums-image {
-    background-image: url('../images/beatles-album-cover.jpeg');
-    background-repeat: no-repeat;
+.albums-image {
+    background: #eee;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.albums-image > div {
+    background: #ccc;
+    text-align: center;
+    height: 200px;
+    padding: 20px;
+    border: 1px solid #777;
+}
+
+.albums-image > div:nth-child(1) {
+    grid-column: 1 / span 3;
+    background: url('../images/please-please-me.jpeg') no-repeat;
     background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(2) {
+    grid-column: span 3;
+    background: url('../images/with-the-beatles.jpeg') no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(3) {
+    grid-column: span 3;
+    background: url('../images/a-hard-days-night.jpeg') no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(4) {
+    grid-column: span 3;
+    background: url('../images/beatles-for-sale.jpeg');
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(5) {
+    grid-column: span 3;
+    background: url('../images/help.jpeg') no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(6) {
+    grid-column: span 3;
+    background: url('../images/rubber-soul.jpeg') no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(7) {
+    grid-column: span 3;
+    background: url('../images/revolver.jpeg') no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(8) {
+    grid-column: span 3;
+    background: url('../images/sgt-pepper.jpeg') no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(9) {
+    grid-column: span 3;
+    background: url('../images/white-album.jpeg');
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(10) {
+    grid-column: span 3;
+    background: url('../images/yellow-submarine.jpeg') no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(11) {
+    grid-column: span 3;
+    background: url('../images/abbey-road.jpeg') no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.albums-image > div:nth-child(12) {
+    grid-column: span 3;
+    background: url('../images/let-it-be.jpeg') no-repeat;
+    background-size: cover;
+    opacity: 0.5;
 }
