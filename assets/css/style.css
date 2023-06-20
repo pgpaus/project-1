@@ -351,14 +351,16 @@ footer {
         padding: 0;
     }
 
+
     hr {
         display: none;
     }
 
     .albums-image {
         float: left;
+        clear: both;
         width: 100%;
-        margin: auto;
+        margin: 0 auto;
         padding: 0;
     }
 }
@@ -404,5 +406,17 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-wdith: 800px) {
+    
+    #photos {
+        column-count: 2;
     }
 }
