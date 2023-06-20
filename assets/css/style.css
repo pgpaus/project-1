@@ -354,6 +354,13 @@ footer {
     hr {
         display: none;
     }
+
+    .albums-image {
+        float: left;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
 }
 
 /* for medium screen sizes from 950px wide and down */
