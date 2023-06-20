@@ -374,4 +374,11 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    .albums-image {
+        float: left;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
 }
