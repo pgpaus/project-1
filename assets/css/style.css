@@ -420,3 +420,16 @@ footer {
         column-count: 2;
     }
 }
+
+/* History */
+
+#history-about, #members-about, #now-about {
+    padding-top: 30px;
+    width: 80%;
+    float: left;
+    text-align: left;
+}
+
+#members {
+    margin-top: 50px;
+}
